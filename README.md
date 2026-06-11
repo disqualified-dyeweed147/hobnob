@@ -10,6 +10,10 @@ If you want to support this single developer project consider doing so on Github
 
 ## Features
 
+<img width="1038" height="686" alt="image" src="https://github.com/user-attachments/assets/1918af7d-6a83-448b-9df5-2d695b2738e0" />
+
+<img width="591" height="134" alt="image" src="https://github.com/user-attachments/assets/a953dec5-901d-47bb-a874-fed5e164f428" />
+
 - **Live captions** — real-time transcription as you speak
 - **BYOM** — Bring your own model. Set each model to your liking
 - **Speaker labels** — "Me" (mic) vs "Them" (system audio) baked in from the audio level
