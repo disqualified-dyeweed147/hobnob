@@ -1,4 +1,22 @@
-// Hobnob releases page — fetches all releases from GitHub API
+// Hobnob releases page
+
+// Mobile nav toggle
+const toggle = document.getElementById("nav-toggle");
+const navLinks = document.getElementById("nav-links");
+if (toggle && navLinks) {
+  toggle.addEventListener("click", () => {
+    toggle.classList.toggle("open");
+    navLinks.classList.toggle("open");
+  });
+  navLinks.querySelectorAll("a").forEach((a) => {
+    a.addEventListener("click", () => {
+      toggle.classList.remove("open");
+      navLinks.classList.remove("open");
+    });
+  });
+}
+
+// Fetch releases
 
 (async () => {
   const container = document.getElementById("releases-full");

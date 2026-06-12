@@ -1,5 +1,21 @@
 // Hobnob site interactions
 
+// Mobile nav toggle
+const toggle = document.getElementById("nav-toggle");
+const navLinks = document.getElementById("nav-links");
+if (toggle && navLinks) {
+  toggle.addEventListener("click", () => {
+    toggle.classList.toggle("open");
+    navLinks.classList.toggle("open");
+  });
+  navLinks.querySelectorAll("a").forEach((a) => {
+    a.addEventListener("click", () => {
+      toggle.classList.remove("open");
+      navLinks.classList.remove("open");
+    });
+  });
+}
+
 // Scroll-reveal animations
 const observer = new IntersectionObserver(
   (entries) => {
