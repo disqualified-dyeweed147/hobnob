@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="About Hobnob — a one-person project for private, local meeting notes." />
+  <meta name="theme-color" content="#F6F1E6" />
+
+  <title>About - Hobnob</title>
+
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="/" class="nav-brand" aria-label="Hobnob home">
+        <img src="assets/icon.png" alt="" width="32" height="32" />
+        <span class="nav-title">Hobnob</span>
+      </a>
+      <div class="nav-links">
+        <a href="/#features">Features</a>
+        <a href="/#privacy">Privacy</a>
+        <a href="/#download">Download</a>
+        <a href="about.html">About</a>
+        <a href="https://ko-fi.com/shobyde" class="nav-support">Support</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page header -->
+  <section class="page-header">
+    <div class="page-header-inner">
+      <a href="/" class="back-link">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        Back home
+      </a>
+      <h1 class="page-title">About Hobnob</h1>
+      <p class="page-sub">One person, one app, zero cloud.</p>
+    </div>
+  </section>
+
+  <!-- About content -->
+  <section class="about-content">
+    <div class="about-inner">
+
+      <div class="about-card">
+        <h2 class="about-heading">A one-person project</h2>
+        <p>Hobnob is built and maintained by a single developer. There is no team, no company, no investors. Just someone who wanted a meeting tool that respects privacy and decided to build it.</p>
+        <p>Every feature, every bug fix, every release is done by one pair of hands. This means updates come steadily but not on a corporate schedule. It also means there is no support team, no sales department, and no one collecting your data.</p>
+      </div>
+
+      <div class="about-card">
+        <h2 class="about-heading">Why Hobnob is not signed</h2>
+        <p>Apple requires a paid developer account ($99/year) to notarize and sign macOS apps. Hobnob does not have one. This means macOS will flag the app as unidentified the first time you open it.</p>
+        <p>The app is safe. It runs entirely on your machine with no network calls after the initial model download. The source is available for audit to anyone who asks.</p>
+      </div>
+
+      <div class="about-card about-tutorial">
+        <h2 class="about-heading">How to open Hobnob on macOS</h2>
+        <p class="about-tutorial-intro">The first time you open Hobnob, macOS will block it. Here is how to allow it:</p>
+
+        <div class="tutorial-steps">
+          <div class="tutorial-step">
+            <div class="tutorial-num">1</div>
+            <div>
+              <strong>Try to open Hobnob.</strong>
+              <p>Double-click the app. You will see a message: <em>"Hobnob cannot be opened because it is from an unidentified developer."</em> Click <strong>Cancel</strong>.</p>
+            </div>
+          </div>
+
+          <div class="tutorial-step">
+            <div class="tutorial-num">2</div>
+            <div>
+              <strong>Open System Settings.</strong>
+              <p>Go to <strong>System Settings</strong> &rarr; <strong>Privacy &amp; Security</strong>.</p>
+            </div>
+          </div>
+
+          <div class="tutorial-step">
+            <div class="tutorial-num">3</div>
+            <div>
+              <strong>Scroll to Security.</strong>
+              <p>Near the bottom of the Privacy &amp; Security pane, you will see a message: <em>"Hobnob was blocked to protect your Mac."</em></p>
+            </div>
+          </div>
+
+          <div class="tutorial-step">
+            <div class="tutorial-num">4</div>
+            <div>
+              <strong>Click Open Anyway.</strong>
+              <p>Click the <strong>Open Anyway</strong> button. You may be asked to enter your password.</p>
+            </div>
+          </div>
+
+          <div class="tutorial-step">
+            <div class="tutorial-num">5</div>
+            <div>
+              <strong>Open Hobnob again.</strong>
+              <p>Double-click the app again. This time macOS will show an <strong>Open</strong> button. Click it and Hobnob will launch.</p>
+            </div>
+          </div>
+        </div>
+
+        <p class="about-tutorial-note">You only need to do this once. After the first launch, Hobnob will open normally.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="" width="28" height="28" />
+        <span>Hobnob</span>
+      </div>
+      <p class="footer-tagline">Private. Local. Yours.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="releases.html">Releases</a>
+        <a href="https://ko-fi.com/shobyde">Support</a>
+        <a href="./LICENSE">License</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Sho Byde. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

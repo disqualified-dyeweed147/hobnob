@@ -5,7 +5,7 @@
 
 Hobnob records meetings, transcribes them locally with Whisper, labels speakers, and summarizes everything with a bundled LLM — all on your machine. Nothing leaves your laptop.
 
-If you want to support this single developer project consider doing so on Github: https://github.com/sponsors/emberscribe
+Visit [hobnob.info](https://hobnob.info) to learn more and download the latest release.
 
 ## Features
 
@@ -20,8 +20,7 @@ If you want to support this single developer project consider doing so on Github
 
 ## Quick start
 
-1. Download the latest release for your platform
-https://github.com/emberscribe/hobnob/releases
+1. Download the latest release from [hobnob.info](https://hobnob.info)
 2. Launch Hobnob — the first-run wizard will guide you through setup
 3. Start recording your next meeting
 
@@ -40,4 +39,4 @@ https://github.com/emberscribe/hobnob/releases
 
 ## License
 
-PolyForm Shield 1.0.0 — free to download and use. See [LICENSE](./LICENSE).
+Proprietary. Free to download and use. See [LICENSE](./LICENSE).

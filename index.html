@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Hobnob: Private, local meeting notes. No cloud, no sign-up, no internet required." />
+  <meta name="theme-color" content="#F6F1E6" />
+
+  <title>Hobnob: Private. Local. Yours.</title>
+
+  <link rel="icon" type="image/png" sizes="512x512" href="assets/icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#" class="nav-brand" aria-label="Hobnob home">
+        <img src="assets/icon.png" alt="" width="32" height="32" />
+        <span class="nav-title">Hobnob</span>
+      </a>
+      <div class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#download">Download</a>
+        <a href="about.html">About</a>
+        <a href="https://ko-fi.com/shobyde" class="nav-support">Support</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero-grid">
+      <div class="hero-content">
+        <div class="hero-chip">Private. Local. Yours.</div>
+        <h1 class="hero-heading">
+          Your meetings,<br />
+          <span class="hero-highlight">your machine</span>
+        </h1>
+        <p class="hero-body">
+          Hobnob records, transcribes, and summarizes your meetings, all on your laptop.
+          No cloud, no sign-up, no internet. Just you and your friendly house-goblin.
+        </p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary">
+            Download Hobnob
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M7.25 10.81V1.75h1.5v9.06l2.97-2.97 1.06 1.06L8 13.94 3.22 9.16l1.06-1.06 2.97 2.97Z"/></svg>
+          </a>
+          <p class="hero-support">
+            Free for everyone.
+            <a href="https://ko-fi.com/shobyde">Support the project</a> if it helps you.
+          </p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="assets/mascot.png" alt="Hobnob the goblin" class="hero-mascot" width="420" height="420" />
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Demo -->
+  <section class="demo" id="demo">
+    <div class="demo-inner">
+      <div class="section-header">
+        <span class="eyebrow">See it in action</span>
+        <h2 class="section-title">Meet Hobnob</h2>
+      </div>
+      <div class="demo-frame">
+        <img src="assets/hobnob-marketing.gif" alt="Hobnob app demo" class="demo-gif" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features" id="features">
+    <div class="section-header">
+      <span class="eyebrow">What Hobnob does</span>
+      <h2 class="section-title">Everything stays local</h2>
+      <p class="section-sub">No accounts, no cloud, no telemetry. Your meetings never leave your laptop.</p>
+    </div>
+
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E26A28" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+        </div>
+        <h3 class="feature-title">Live captions</h3>
+        <p class="feature-desc">Real-time transcription as everyone speaks, with speaker labels baked right in.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#5E6F3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+        </div>
+        <h3 class="feature-title">LLM summaries</h3>
+        <p class="feature-desc">Structured meeting notes with decisions, action items, and open questions, locally run.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#F2A63A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+        </div>
+        <h3 class="feature-title">Chat with your meeting</h3>
+        <p class="feature-desc">Ask questions while it's happening. Hobnob's bundled LLM answers from the transcript.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8FA76A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+        </div>
+        <h3 class="feature-title">Calendar integration</h3>
+        <p class="feature-desc">Auto-titles meetings from your calendar. 5-minute heads-up with one-click join.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E26A28" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+        </div>
+        <h3 class="feature-title">Bring your own model</h3>
+        <p class="feature-desc">Swap Whisper models. Pick your own LLM GGUF. Full control over what runs locally.</p>
+      </div>
+
+      <div class="feature-card">
+        <div class="feature-icon">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#5E6F3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+        </div>
+        <h3 class="feature-title">macOS &amp; Linux</h3>
+        <p class="feature-desc">Native desktop app for Apple Silicon and Linux. AppImage, .deb, and .pacman packages.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Privacy -->
+  <section class="privacy" id="privacy">
+    <div class="privacy-inner">
+      <div class="privacy-content">
+        <div class="privacy-chip">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+          Stored locally
+        </div>
+        <h2 class="privacy-title">Nothing leaves your laptop</h2>
+        <p class="privacy-body">
+          Recordings, transcripts, and summaries are saved on your machine. Whisper runs locally for transcription.
+          The bundled LLM runs locally for summaries and chat. No API keys, no telemetry, no accounts.
+        </p>
+        <ul class="privacy-list">
+          <li><span class="privacy-check">&check;</span> No internet required after setup</li>
+          <li><span class="privacy-check">&check;</span> Zero data collection</li>
+
+          <li><span class="privacy-check">&check;</span> PolyForm Shield license</li>
+        </ul>
+      </div>
+      <div class="privacy-visual" aria-hidden="true">
+        <div class="privacy-shield">
+          <svg width="120" height="140" viewBox="0 0 24 28" fill="none">
+            <path d="M12 1L2 5v10c0 5.5 4.3 10.7 10 12 5.7-1.3 10-6.5 10-12V5L12 1z" fill="#E7EBD9" stroke="#5E6F3A" stroke-width="1.2" stroke-linejoin="round"/>
+            <path d="M10 14l1.5 1.5L15 12" stroke="#5E6F3A" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section class="how" id="how">
+    <div class="section-header">
+      <span class="eyebrow">Three steps</span>
+      <h2 class="section-title">How Hobnob works</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">1</div>
+        <h3 class="step-title">Record</h3>
+        <p class="step-desc">Hit record. Hobnob captures your mic and system audio. Live captions appear instantly.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D8C7A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </div>
+      <div class="step">
+        <div class="step-num">2</div>
+        <h3 class="step-title">Transcribe</h3>
+        <p class="step-desc">When the meeting ends, Whisper runs a high-accuracy pass. Speaker labels are applied automatically.</p>
+      </div>
+      <div class="step-arrow" aria-hidden="true">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#D8C7A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+      </div>
+      <div class="step">
+        <div class="step-num">3</div>
+        <h3 class="step-title">Summarize</h3>
+        <p class="step-desc">Hobnob scribbles your notes with decisions, action items, and questions. Everything stays on your machine.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Download -->
+  <section class="download" id="download">
+    <div class="download-inner">
+      <div class="download-head">
+        <span class="eyebrow">Get started</span>
+        <h2 class="section-title">Download Hobnob</h2>
+        <p class="section-sub">Free to download and use. ~8 GB RAM recommended. Models download on first run.</p>
+      </div>
+
+      <div class="download-grid">
+        <div class="download-card">
+          <div class="dl-platform">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.01 3.19-.69.81-1.83 1.44-2.93 1.36-.15-1.15.39-2.32 1-3.05"/></svg>
+            macOS
+          </div>
+          <p class="dl-req">macOS 13+ (Apple Silicon)</p>
+          <a href="https://github.com/emberscribe/hobnob/releases/latest" id="dl-mac" class="btn btn-primary btn-full">Download for Mac</a>
+          <p class="dl-file" id="dl-mac-file">Hobnob-mac.zip</p>
+          <p class="dl-notice">
+            Not signed with an Apple developer certificate.
+            <a href="about.html">How to allow it.</a>
+          </p>
+        </div>
+
+        <div class="download-card">
+          <div class="dl-platform">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"/><line x1="12" y1="19" x2="20" y2="19"/></svg>
+            Linux
+          </div>
+          <p class="dl-req">Any modern distro</p>
+          <div class="dl-buttons" id="dl-linux-buttons">
+            <a href="https://github.com/emberscribe/hobnob/releases/latest" class="btn btn-secondary btn-full">Download for Linux</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Releases -->
+  <section class="releases" id="releases">
+    <div class="releases-inner">
+      <div class="section-header">
+        <span class="eyebrow">Changelog</span>
+        <h2 class="section-title">Latest release</h2>
+      </div>
+      <div class="releases-list" id="releases-list">
+        <div class="releases-loading">Loading releases...</div>
+      </div>
+      <div class="releases-more">
+        <a href="releases.html" class="btn btn-secondary">View all releases</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="assets/icon.png" alt="" width="28" height="28" />
+        <span>Hobnob</span>
+      </div>
+      <p class="footer-tagline">Private. Local. Yours.</p>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="releases.html">Releases</a>
+        <a href="https://ko-fi.com/shobyde">Support</a>
+        <a href="./LICENSE">License</a>
+      </div>
+      <p class="footer-copy">&copy; 2026 Sho Byde. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
